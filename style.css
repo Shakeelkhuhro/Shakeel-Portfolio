@@ -472,4 +472,8 @@ form btn-2 {
         margin-left: 0px !important;
     }
 
+    .btn.btn-2{
+        width: 100%;
+    }
+
 }
