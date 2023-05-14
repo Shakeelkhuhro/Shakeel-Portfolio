@@ -390,6 +390,10 @@ form btn-2 {
     display: block;
 }
 
+#header .container i {
+    display: none;
+}
+
 
 @media only screen and (max-width: 600px) {
     #header {
@@ -468,12 +472,59 @@ form btn-2 {
         font-size: 14px;
     }
 
-    .contact-left p{
+    .contact-left p {
         margin-left: 0px !important;
     }
 
-    .btn.btn-2{
+    .btn.btn-2 {
         width: 100%;
     }
+
+    #header .container i {
+        display: initial;
+    }
+
+    #header .container .fa-bars {
+        position: fixed;
+        right: 50px;
+        display: block;
+    }
+
+    #header .container .fa-times {
+        position: fixed;
+        right: 20px;
+        top: 30px;
+        display: none;
+    }
+
+    /* Add a new CSS rule */
+    #header .container .fa-bars {
+        display: block;
+    }
+
+    #header .container .fa-times {
+        display: none;
+    }
+
+    body.sidebar-open #header .container .fa-times {
+        display: block;
+    }
+    body.sidebar-open #header .container .fa-bars {
+        display: none;
+    }
+
+    body:not(.sidebar-open) #header .container .fa-times {
+        display: none;
+    }
+    body:not(.sidebar-open) #header .container .fa-bars {
+        display: block;
+    }
+
+    .sidebar-open #header .container .fa-bars,
+    .sidebar-open #header .container .fa-times {
+        display: none;
+    }
+
+
 
 }
