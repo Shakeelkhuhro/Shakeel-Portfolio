@@ -12,7 +12,6 @@
   <a href="#features">Features</a> •
   <a href="#how-to-use">How to Use</a> •
   <a href="#dependencies">Dependencies</a> •
-  <a href="#license">License</a>
 </p>
 
 ---
