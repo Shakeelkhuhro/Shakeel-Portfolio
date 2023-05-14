@@ -1,7 +1,7 @@
 <h1 align="center">Website Styling</h1>
 
 <p align="center">
-  <img src="https://yourwebsite.com/images/preview.png" alt="Website Preview">
+  <img src="https://shakeelkhuhro.github.io/Shakeel-Portfolio/" alt="Website Preview">
 </p>
 
 <p align="center">

@@ -395,10 +395,11 @@ form btn-2 {
     #header {
         background-image: url(./images/backgronud1.png);
         background-position: right bottom;
+        /* width: 300px; */
     }
 
     .header-text {
-        margin-top: 100%;
+        margin-top: 40%;
         font-size: 16px;
     }
 
@@ -449,6 +450,7 @@ form btn-2 {
     }
 
     .about-col-2 {
+        order: -1;
         font-size: 14px;
     }
 
