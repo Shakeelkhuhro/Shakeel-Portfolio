@@ -468,4 +468,8 @@ form btn-2 {
         font-size: 14px;
     }
 
+    .contact-left p{
+        margin-left: 0px !important;
+    }
+
 }
