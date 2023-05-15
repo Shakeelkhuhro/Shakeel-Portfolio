@@ -231,6 +231,7 @@ nav ul a:hover::after {
     transition: transform 0.5;
 }
 
+
 .layer {
     width: 100%;
     height: 0;
@@ -427,6 +428,7 @@ form btn-2 {
         z-index: 2;
         transition: right 0.5s;
     }
+    
 
     nav ul li {
         display: block;
@@ -485,46 +487,38 @@ form btn-2 {
     }
 
     #header .container .fa-bars {
-        position: fixed;
+        position: absolute;
         right: 50px;
         display: block;
     }
 
     #header .container .fa-times {
-        position: fixed;
+        position: absolute;
         right: 20px;
         top: 30px;
-        display: none;
+        display: block;
     }
 
-    /* Add a new CSS rule */
+    
+
+ /*   #header .container .fa-bars {
+        display: none;
+    }
+    
+    #header .container .fa-times {
+        display: block;
+    }
+    
+    
     #header .container .fa-bars {
         display: block;
     }
-
+    
     #header .container .fa-times {
-        display: none;
+        display: initial;
     }
-
-    body.sidebar-open #header .container .fa-times {
-        display: block;
-    }
-    body.sidebar-open #header .container .fa-bars {
-        display: none;
-    }
-
-    body:not(.sidebar-open) #header .container .fa-times {
-        display: none;
-    }
-    body:not(.sidebar-open) #header .container .fa-bars {
-        display: block;
-    }
-
-    .sidebar-open #header .container .fa-bars,
-    .sidebar-open #header .container .fa-times {
-        display: none;
-    }
-
-
+     */
+    
+    
 
 }
