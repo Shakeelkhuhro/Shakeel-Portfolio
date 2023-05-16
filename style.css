@@ -5,6 +5,7 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 html {
@@ -376,6 +377,10 @@ form btn-2 {
 
 .copyright i {
     color: #ff004f;
+}
+
+.copyright p{
+    text-align: center !important;
 }
 
 
