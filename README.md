@@ -1,4 +1,4 @@
-<h1 align="center">Website Styling</h1>
+<h1 align="center">Shakeel Khuhro | Portfolio</h1>
 
 <p align="center">
   <img src="https://github.com/Shakeelkhuhro/Shakeel-Portfolio/blob/main/images/Readme-img.PNG" alt="Website Preview">
